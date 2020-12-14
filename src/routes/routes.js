@@ -5,3 +5,10 @@ const router = express.Router();
 router.post('/cliente', ClienteController.Insert);
 
 module.exports = router;
+
+router.post('/cliente', ClienteController.Insert);
+router.get('/cliente', ClienteController.SelectAll);
+router.get('/cliente/:id', ClienteController.SelectDetail);
+
+module.exports = router;
+
