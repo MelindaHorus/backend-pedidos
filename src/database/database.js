@@ -1,10 +1,8 @@
 // Define que vamos utilizar o Sequelize como ORM
 const Sequelize = require('sequelize');
 
-// Define que vamos usar em modo de ambiente ou desenvolvimento
-const environment = process.env.NODE_ENV || 'development';
 
-const config = require('../config/config.js')[environment];
+const config = require('../config/config.js');
 
 // Para o sequelize os dados do banco de dados
 const sequelize = new Sequelize(
