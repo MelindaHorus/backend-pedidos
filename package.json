@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Joseffe10/backend-pedidos.git"
+    "url": "git+https://github.com/MelindaHorus/backend-pedidos.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Joseffe10/backend-pedidos/issues"
+    "url": "https://github.com/MelindaHorus/backend-pedidos/issues"
   },
-  "homepage": "https://github.com/Joseffe10/backend-pedidos#readme",
+  "homepage": "https://github.com/MelindaHorus/backend-pedidos#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
